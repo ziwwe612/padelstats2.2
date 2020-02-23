@@ -1,0 +1,553 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end*/ 
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content-wrap .telnr a{
+    color: black;
+    font-family:  "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+
+.content-wrap a{
+    color: rgb(0, 0, 0);
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+
+.content-wrap h1{
+    font-size: 2em;
+    margin: .67em;
+    padding: 1em 0; 
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;; 
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.content-wrap i{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+    font-style: italic;
+}
+
+.content-wrap h2{
+    font-size: 1.5em;
+    margin: .5em;
+    padding: 0.8em 0; 
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;; 
+    font-weight: bold;
+}
+
+#main-footer {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;; 
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.content-wrap p{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;; 
+}
+
+.card-content h3{
+    font-size: 1.3em;
+    margin: .5em;
+    padding: 0.8em 0; 
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;; 
+    font-weight: bold;
+    color: white;
+}
+
+.card-content a{
+    font-size: 1.3em;
+    margin: .5em;
+    padding: 0.8em 0; 
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;; 
+    font-weight: bold;
+    color: white;
+}
+
+.card-content p{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+
+.content-text p{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+
+.box h2{
+    font-size: 1.5em;
+    margin: .5em;
+    padding: 0.8em 0; 
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;; 
+    font-weight: bold;
+}
+
+.box p{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+
+.inlog{
+    margin-top: 110%;
+}
+
+.box a{
+    color: white;
+}
+
+.content-text a{
+    color: black;
+}
+
+.bmli{
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 2px solid rgb(0, 0, 0);
+    margin: .5em 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+
+/* Huvud designen */
+
+body {
+    margin:0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+    background: rgb(77, 77, 77);
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 1em 0;  
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1.5px solid rgb(20, 20, 20);
+    margin: .10em 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+
+.btn:hover {
+    background: rgb(117, 172, 45);
+    color: #fff;
+}
+
+/* Header */
+
+#showcase {
+    min-height: 530px;
+    color: #fff;
+    text-align: center;
+}
+
+/*
+#fb {
+    width: 8%;
+    float: right;
+    margin: 0%;
+}
+
+#tw {
+    width: 8%;
+    float: right;
+    margin: 0%;
+}
+*/
+#ig {
+    width: 8%;
+    float: right;    
+    margin: 0%;
+    margin-top: -11%;
+    margin-right: -10%;
+}
+/*
+#yt {
+    width: 8%;
+    float: right;
+    margin: 0%;
+}
+*/
+#showcase .bg-image {
+    position: absolute;
+    background: #333 url("https://image.freepik.com/free-photo/sportsman-playing-padel-game_153437-7.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase .bg2-image {
+    position: absolute;
+    background: #333 url("https://image.freepik.com/free-photo/net-paddle-court_78895-1300.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase .bg3-image {
+    position: absolute;
+    background: #333 url("https://image.freepik.com/free-psd/business-statistics-bar-graph_53876-12055.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase .bg4-image {
+    position: absolute;
+    background: #333 url("https://image.freepik.com/free-photo/tennis-ball-hitting-tennis-net-tennis-court_38350-1.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#showcase h1 {
+    padding-top: 150px;
+    padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+    padding: 0 1.5 em;
+}
+
+/* NavBar */
+.navb {
+    background: rgba(93, 146, 24, 0.7);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position:fixed;
+    width:100%;
+    z-index: 3;
+}
+
+.navb ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.navb ul a {
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    float:left;
+    display:block;
+    height: 70px;
+    width: auto;
+    /*padding:10px 20px; utrymme runt logga*/
+}
+
+.navb ul a:hover {
+    background-color:rgb(117, 172, 45);
+}
+.navb ul .active {
+    background-color:rgb(117, 172, 45);
+}
+
+.navb .menu {
+    clear:both;
+    max-height: 0;
+    transition:max-height .2s ease-out;
+}
+
+.navb .menu-icon {
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.navb .menu-icon .nav-icon {
+    background:#fff;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position:relative;
+    transition:background .2s ease-out;
+}
+
+.navb .menu-icon .nav-icon:before {
+    background: #fff;
+    content:"";
+    display:block;
+    height: 100%;
+    position: absolute;
+    width:100%;
+    transition:all .2s ease-out;
+    top:5px;
+}
+
+.navb .menu-icon .nav-icon:after {
+    background: #fff;
+    content:"";
+    display:block;
+    height: 100%;
+    position: absolute;
+    width:100%;
+    transition:all .2s ease-out;
+    top:-5px;
+}
+
+.navb .menu-btn {
+    display:none;
+}
+
+.navb .menu-btn:checked ~ .menu {
+    max-height:400px;
+}
+
+.navb .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+}
+.navb .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.navb .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+@media (min-width:977px) {
+     .navb li {
+        float:left;
+    }
+    .navb li a {
+        padding:20px 30px;
+        height: 70px;
+    }
+
+    .navb .menu {
+        clear:none;
+        float: right;
+        max-height: none;
+    }
+
+    .navb .menu-icon {
+        display: none;
+    }
+    .fa {
+
+        text-decoration: none;
+        margin: 0px;
+        height: 70px;
+      } 
+    
+/*
+    .socialmedia {
+        clear:none;
+        float: right;
+        max-height: none;
+    }
+    */
+}
+
+/* Social Media Knappar */
+
+ 
+  .fa-facebook {
+    
+    color: white;
+  }
+  
+  .fa-twitter {
+    
+    color: white;
+  }
+  
+  .fa-youtube {
+    
+    color: white;
+  }
+  
+  .fa-instagram {
+    
+    color: white;
+  }
+
+/* Section A */
+
+#section-a {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+
+/* Section B*/
+
+#section-b {
+    padding: 2em 1em 1em;
+}
+
+#section-b ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#section-b li {
+    margin-bottom: 1em;
+    background: 77, 77, 77;
+    color: #fff;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+/* Section C */
+
+#section-c {
+    background: #eaeaea;
+    color: #333;
+    padding: 2em;
+}
+
+/* Section D */
+
+#section-d .box {
+    padding: 2em;
+    color: #fff;
+}
+
+#section-d .box:first-child {
+    background: #222;
+}
+
+/* Footer */
+
+#main-footer {
+    padding: 2em;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+}
+
+#main-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media(min-width: 977px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    #section-a .content-text {
+        columns: 1;
+        column-gap: 2em;
+    }
+
+    #section-a .content-text p {
+        padding: 0;
+    }
+
+    .content-wrap,
+    #section-b ul {
+        grid-column: 2/4;
+    }
+
+    .box, #main-footer div {
+        grid-column: span 2;
+    }
+
+    #section-b ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-b li {
+        width: 31%;
+    }
+}
+  
